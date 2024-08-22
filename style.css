@@ -1,5 +1,63 @@
-body {
+body{
     font-family: "Poppins", sans-serif;
-    font-weight: 200;
-    font-style: normal;
+}
+header {
+    padding: 160px 200px;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("background.jpeg");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+header h1{
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 5px;}
+header h2{
+font-size: 96px;
+font-weight: 700;
+line-height: 144px;
+margin-top: 50px;
+margin-bottom: 3px;
+}
+header h3{
+font-size: 40px;
+font-weight: 400;
+line-height: 60px;
+margin-top: 0;
+}
+header button{
+   
+padding: 16px 32px 16px 32px;
+
+
+font-size: 14px;
+font-weight: 900;
+line-height: 21px;
+letter-spacing: 3px;
+background-color: white;
+border: none;
+cursor: pointer;
+}
+@media(max-width:900px){
+    header{
+        padding: 60px 0;
+    }
+    header h1{
+        font-size: 12px;
+    }
+    header h2{
+        font-size: 30px;
+        line-height: normal;
+    }
+    header h3{
+        font-size: 20px;
+    }
+    header button{
+        font-size: 10px;
+        padding: 6px 15px 6px 15px;
+
+    }
 }
