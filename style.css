@@ -4,10 +4,10 @@ body{
 }
 .container{
     max-width: 100%;
-    margin: 0 30px;
+    margin: 0 20px;
 }
 header {
-    padding: 160px 200px;
+    padding: 160px 0px;
     text-align: center;
     color: white;
     background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.5)), url("background.jpeg");
@@ -115,6 +115,7 @@ text-align: left;
     background-color: #481706;
     padding-left: 130px;
     padding-right: 130px;
+    padding-bottom: 100px;
 }
 .secondary h2{
     text-align: center;
@@ -125,7 +126,7 @@ font-weight: 700;
 line-height: 24px;
 letter-spacing: 5px;
 margin-bottom: 0;
-padding-top: 100px;
+padding-top: 50px;
 
 }
 .secondary h3{
@@ -178,7 +179,7 @@ margin-bottom: 0;
 background-color: #54352a;
 }
 .secondary  .card-body button{
-    padding: 16px 20%;
+    padding: 16px 10%;
    
  border-radius: 30px;
 opacity: 0.4 ;
@@ -195,7 +196,7 @@ transition: all 200ms ease-in-out;
 }
 .secondary .card-footer{
     display: block;
-text-align: center;
+text-align: left;
 }
 .secondary .btn{
     color: black;
@@ -205,6 +206,26 @@ font-weight: 900;
 line-height: 21px;
 letter-spacing: 3px;
 }
+
+
+.secondary .embed{
+    width: 100%;
+    aspect-ratio: 1/1.25;
+}
+
+#tertiary{
+    background-color: #3c1405;
+}
+
+#tertiary .grid-3-columns{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+   
+}
+
+
+
+
 
 
 
@@ -245,13 +266,15 @@ letter-spacing: 3px;
         margin:0px;
     }
     .img-responsive{
-        margin-bottom: 10px;
+        margin-bottom: 0px;
     }
     main h2{
         margin: 0;
         padding: 0;
     }
-    .grid-2-columns {grid-gap: 5px;
+    .grid-2-columns {
+        grid-template-columns: 1fr;
+        grid-gap: 0px;
     }
     .secondary  .card-body button{
         padding: 6px 20%;
@@ -263,8 +286,33 @@ letter-spacing: 3px;
     .secondary h2{
         padding: 15px;
     }
-    .secondary{
-        padding-left: 50px;
-        padding-right: 50px;
+    .secondary h3{
+        font-size: 22px;
+        margin-bottom: 0px;
     }
-}
+    .secondary .card-body h4{
+        text-align: center;
+    }
+    .secondary{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .secondary .card-footer{
+        display: block;
+        text-align: center;
+        margin: 0 20px;
+
+    }
+    .secondary img{
+        display: none;
+    }
+    .secondary .embed{
+        aspect-ratio: 16/9;
+    }
+    .secondary .grid-header{
+        grid-template-columns: 1fr;
+    }
+    #tertiary .grid-3-columns{
+        grid-template-columns: 1fr;
+    }
+    }
