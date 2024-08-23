@@ -222,7 +222,9 @@ letter-spacing: 3px;
     grid-template-columns: 1fr 1fr 1fr;
    
 }
-
+#tertiary .card{
+    background-color: #3c1405;
+}
 
 
 
